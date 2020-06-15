@@ -12,17 +12,16 @@ Pod::Spec.new do |spec|
   spec.name         = "loginSDK"
   spec.version      = "0.0.1"
   spec.summary      = "A short description of loginSDK."
- 
-
-    spec.description  = <<-DESC
-                 wqwqe
-                     DESC
-    spec.homepage     = "https://github.com/xiaoyuting/hw_loginSDK.git"
-    spec.author             = { "xiaoyuting" => "xiaoyuting" }
-    spec.platform     = :ios, "9.0"
-     
-    spec.source       = { :git => "https://github.com/xiaoyuting/hw_loginSDK.git", :tag => "#{spec.version}" }
-    spec.requires_arc = true
-    spec.vendored_frameworks = 'loginSDK.framework'
+  spec.description  = <<-DESC
+  这就是一个测试，没别的，你信不信？
+  DESC
+  spec.homepage     = "https://github.com/xiaoyuting/hw_loginSDK.git"
+  spec.author             = { "xiaoyuting" => "xiaoyuting" }
+  spec.platform     = :ios, "9.0"
+  spec.license      = { :type => "MIT", :file => "LICENSE" }
+  spec.source       = { :git => "https://github.com/xiaoyuting/hw_loginSDK.git", :tag => "#{spec.version}" }
+  spec.requires_arc = true
+   # spec.public_header_files =  'loginSDK.framwork/*.h'
+  spec.vendored_frameworks = 'loginSDK.framework'
 
 end
